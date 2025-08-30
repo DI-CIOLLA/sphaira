@@ -414,7 +414,7 @@ dkp_install_assets(sphaira_romfs
 nx_generate_nacp(
     OUTPUT sphaira.nacp
     NAME ${CMAKE_PROJECT_NAME}
-    AUTHOR TotalJustice
+    AUTHOR DI-CIOLLA
     VERSION ${sphaira_VERSION}
 )
 
