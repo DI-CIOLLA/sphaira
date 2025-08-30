@@ -76,31 +76,13 @@ Also you need to have on your environment the packages `git`, `make`, `zip` and 
 Once devkitPro and all dependencies are installed, you can now build sphaira.
 
 ```sh
-git clone https://github.com/ITotalJustice/sphaira.git
+git clone https://github.com/DI-CIOLLA/sphaira.git
 cd sphaira
-cmake --preset MinSizeRel
-cmake --build --preset MinSizeRel
+cmake --preset Release
+cmake --build --preset Release
 ```
 
 The output will be found in `build/MinSizeRel/sphaira.nro`
-
-## Credits
-
-- [borealis](https://github.com/natinusala/borealis)
-- [stb](https://github.com/nothings/stb)
-- [yyjson](https://github.com/ibireme/yyjson)
-- [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu)
-- [nx-hbloader](https://github.com/switchbrew/nx-hbloader)
-- [deko3d-nanovg](https://github.com/Adubbz/nanovg-deko3d)
-- [libpulsar](https://github.com/p-sam/switch-libpulsar)
-- [minIni](https://github.com/compuphase/minIni)
-- [GBATemp](https://gbatemp.net/threads/sphaira-hbmenu-replacement.664523/)
-- [hb-appstore](https://github.com/fortheusers/hb-appstore)
-- [haze](https://github.com/Atmosphere-NX/Atmosphere/tree/master/troposphere/haze)
-- [nxdumptool](https://github.com/DarkMatterCore/nxdumptool) (for gamecard bin dumping and rsa verify code)
-- [Liam0](https://github.com/ThatNerdyPikachu/switch-010editor-templates) (for ticket / cert structs)
-- [libusbhsfs](https://github.com/DarkMatterCore/libusbhsfs)
-- [libnxtc](https://github.com/DarkMatterCore/libnxtc)
 - [oss-nvjpg](https://github.com/averne/oss-nvjpg)
 - [nsz](https://github.com/nicoboss/nsz)
 - [themezer](https://themezer.net/)
