@@ -82,8 +82,4 @@ cmake --preset Release
 cmake --build --preset Release
 ```
 
-The output will be found in `build/MinSizeRel/sphaira.nro`
-- [oss-nvjpg](https://github.com/averne/oss-nvjpg)
-- [nsz](https://github.com/nicoboss/nsz)
-- [themezer](https://themezer.net/)
-- Everyone who has contributed to this project!
+The output will be found in `build/Release/sphaira.nro`
